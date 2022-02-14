@@ -1,0 +1,66 @@
+.top-bar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.top-bar > p{
+    font-size:1rem;
+    align-self: center;
+}
+
+.top-bar > button{
+    background-color:rgb(88, 21, 150);
+    color:white;
+    padding: 0.5rem 1rem;
+    border-radius:20px;
+}
+.top-bar > button:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(120, 65, 131);
+}
+
+
+.hero{
+    background-image: url("./../images/sfondo-hero.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+/* . campoTestuale{
+    background-color: rgba(108, 100, 214, 0.473); 
+PERCHè NON FUNZIONA?
+}*/
+
+
+h1{ 
+    background-color: rgba(108, 100, 214, 0.6);  
+    color: rgb(255, 255, 255); 
+    font-size: 3.5rem;
+    padding: 4rem 1rem 1rem 1rem;
+    text-align: center;
+    transform:scale;
+    transition: transform 0,5 ease;
+    width:100vw;
+}
+
+
+h3{ 
+    background-color: rgba(108, 100, 214, 0.6);  
+    color: rgb(255, 255, 255); 
+    font-size: 1.5rem;
+    padding: 1rem 1rem 4rem 1rem;
+    text-align: center;
+    width:100vw;
+}
+
+h2{
+    font-size: 1.5rem;
+    color:rgb(79, 5, 94);
+    font-weight: 600;
+    margin: 1rem 0 0 1rem;
+
+}
