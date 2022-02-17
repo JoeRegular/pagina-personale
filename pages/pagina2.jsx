@@ -9,8 +9,6 @@ export default function Pagina2() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         pagina 2
-        
-
     </div>
   )
 }

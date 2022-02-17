@@ -61,3 +61,8 @@ body {
 	font-family: var(--primary-font);
 }
 
+:root {
+  --primary-font: 'Space Mono', monospace;
+  --secondary-font: 'Major Mono Display', monospace;
+  --titles-font: 'Monoton', cursive;
+}
